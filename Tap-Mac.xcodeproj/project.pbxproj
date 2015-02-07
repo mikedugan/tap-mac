@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25D100071A865FEB009F2713 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D100061A865FEB009F2713 /* AppDelegate.m */; };
+		25D100091A865FEB009F2713 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D100081A865FEB009F2713 /* main.m */; };
+		25D1000C1A865FEB009F2713 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D1000B1A865FEB009F2713 /* GameView.m */; };
+		25D1000F1A865FEB009F2713 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D1000E1A865FEB009F2713 /* GameViewController.m */; };
+		25D100111A865FEB009F2713 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D100101A865FEB009F2713 /* art.scnassets */; };
+		25D100131A865FEB009F2713 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D100121A865FEB009F2713 /* Images.xcassets */; };
+		25D100161A865FEB009F2713 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D100141A865FEB009F2713 /* MainMenu.xib */; };
+		25D100221A865FEB009F2713 /* Tap_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D100211A865FEB009F2713 /* Tap_MacTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25D1001C1A865FEB009F2713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25D1FFF81A865FEB009F2713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25D1FFFF1A865FEB009F2713;
+			remoteInfo = "Tap-Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25D100001A865FEB009F2713 /* Tap-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D100041A865FEB009F2713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25D100051A865FEB009F2713 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25D100061A865FEB009F2713 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25D100081A865FEB009F2713 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25D1000A1A865FEB009F2713 /* GameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		25D1000B1A865FEB009F2713 /* GameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		25D1000D1A865FEB009F2713 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		25D1000E1A865FEB009F2713 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		25D100101A865FEB009F2713 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		25D100121A865FEB009F2713 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25D100151A865FEB009F2713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		25D1001B1A865FEB009F2713 /* Tap-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D100201A865FEB009F2713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25D100211A865FEB009F2713 /* Tap_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tap_MacTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25D100181A865FEB009F2713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25D1FFFD1A865FEB009F2713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25D100011A865FEB009F2713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25D100001A865FEB009F2713 /* Tap-Mac.app */,
+				25D1001B1A865FEB009F2713 /* Tap-MacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25D100021A865FEB009F2713 /* Tap-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				25D100051A865FEB009F2713 /* AppDelegate.h */,
+				25D100061A865FEB009F2713 /* AppDelegate.m */,
+				25D1000A1A865FEB009F2713 /* GameView.h */,
+				25D1000B1A865FEB009F2713 /* GameView.m */,
+				25D1000D1A865FEB009F2713 /* GameViewController.h */,
+				25D1000E1A865FEB009F2713 /* GameViewController.m */,
+				25D100101A865FEB009F2713 /* art.scnassets */,
+				25D100121A865FEB009F2713 /* Images.xcassets */,
+				25D100141A865FEB009F2713 /* MainMenu.xib */,
+				25D100031A865FEB009F2713 /* Supporting Files */,
+			);
+			path = "Tap-Mac";
+			sourceTree = "<group>";
+		};
+		25D100031A865FEB009F2713 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25D100041A865FEB009F2713 /* Info.plist */,
+				25D100081A865FEB009F2713 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25D1001E1A865FEB009F2713 /* Tap-MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				25D100211A865FEB009F2713 /* Tap_MacTests.m */,
+				25D1001F1A865FEB009F2713 /* Supporting Files */,
+			);
+			path = "Tap-MacTests";
+			sourceTree = "<group>";
+		};
+		25D1001F1A865FEB009F2713 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25D100201A865FEB009F2713 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25D1FFF71A865FEB009F2713 = {
+			isa = PBXGroup;
+			children = (
+				25D100021A865FEB009F2713 /* Tap-Mac */,
+				25D1001E1A865FEB009F2713 /* Tap-MacTests */,
+				25D100011A865FEB009F2713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25D1001A1A865FEB009F2713 /* Tap-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D100281A865FEB009F2713 /* Build configuration list for PBXNativeTarget "Tap-MacTests" */;
+			buildPhases = (
+				25D100171A865FEB009F2713 /* Sources */,
+				25D100181A865FEB009F2713 /* Frameworks */,
+				25D100191A865FEB009F2713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25D1001D1A865FEB009F2713 /* PBXTargetDependency */,
+			);
+			name = "Tap-MacTests";
+			productName = "Tap-MacTests";
+			productReference = 25D1001B1A865FEB009F2713 /* Tap-MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25D1FFFF1A865FEB009F2713 /* Tap-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D100251A865FEB009F2713 /* Build configuration list for PBXNativeTarget "Tap-Mac" */;
+			buildPhases = (
+				25D1FFFC1A865FEB009F2713 /* Sources */,
+				25D1FFFD1A865FEB009F2713 /* Frameworks */,
+				25D1FFFE1A865FEB009F2713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tap-Mac";
+			productName = "Tap-Mac";
+			productReference = 25D100001A865FEB009F2713 /* Tap-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25D1FFF81A865FEB009F2713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mike Dugan";
+				TargetAttributes = {
+					25D1001A1A865FEB009F2713 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 25D1FFFF1A865FEB009F2713;
+					};
+					25D1FFFF1A865FEB009F2713 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 25D1FFFB1A865FEB009F2713 /* Build configuration list for PBXProject "Tap-Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25D1FFF71A865FEB009F2713;
+			productRefGroup = 25D100011A865FEB009F2713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25D1FFFF1A865FEB009F2713 /* Tap-Mac */,
+				25D1001A1A865FEB009F2713 /* Tap-MacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25D100191A865FEB009F2713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25D1FFFE1A865FEB009F2713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D100111A865FEB009F2713 /* art.scnassets in Resources */,
+				25D100131A865FEB009F2713 /* Images.xcassets in Resources */,
+				25D100161A865FEB009F2713 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25D100171A865FEB009F2713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D100221A865FEB009F2713 /* Tap_MacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25D1FFFC1A865FEB009F2713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D1000F1A865FEB009F2713 /* GameViewController.m in Sources */,
+				25D1000C1A865FEB009F2713 /* GameView.m in Sources */,
+				25D100091A865FEB009F2713 /* main.m in Sources */,
+				25D100071A865FEB009F2713 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25D1001D1A865FEB009F2713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25D1FFFF1A865FEB009F2713 /* Tap-Mac */;
+			targetProxy = 25D1001C1A865FEB009F2713 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25D100141A865FEB009F2713 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25D100151A865FEB009F2713 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25D100231A865FEB009F2713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25D100241A865FEB009F2713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25D100261A865FEB009F2713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tap-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25D100271A865FEB009F2713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tap-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25D100291A865FEB009F2713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tap-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tap-Mac.app/Contents/MacOS/Tap-Mac";
+			};
+			name = Debug;
+		};
+		25D1002A1A865FEB009F2713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tap-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tap-Mac.app/Contents/MacOS/Tap-Mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25D100251A865FEB009F2713 /* Build configuration list for PBXNativeTarget "Tap-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D100261A865FEB009F2713 /* Debug */,
+				25D100271A865FEB009F2713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25D100281A865FEB009F2713 /* Build configuration list for PBXNativeTarget "Tap-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D100291A865FEB009F2713 /* Debug */,
+				25D1002A1A865FEB009F2713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25D1FFFB1A865FEB009F2713 /* Build configuration list for PBXProject "Tap-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D100231A865FEB009F2713 /* Debug */,
+				25D100241A865FEB009F2713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25D1FFF81A865FEB009F2713 /* Project object */;
+}
