@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25D1FFFF1A865FEB009F2713"
+               BlueprintIdentifier = "254974951A866090000DBF06"
                BuildableName = "Tap-Mac.app"
                BlueprintName = "Tap-Mac"
                ReferencedContainer = "container:Tap-Mac.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25D1001A1A865FEB009F2713"
+               BlueprintIdentifier = "254974B01A866091000DBF06"
                BuildableName = "Tap-MacTests.xctest"
                BlueprintName = "Tap-MacTests"
                ReferencedContainer = "container:Tap-Mac.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25D1001A1A865FEB009F2713"
+               BlueprintIdentifier = "254974B01A866091000DBF06"
                BuildableName = "Tap-MacTests.xctest"
                BlueprintName = "Tap-MacTests"
                ReferencedContainer = "container:Tap-Mac.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25D1FFFF1A865FEB009F2713"
+            BlueprintIdentifier = "254974951A866090000DBF06"
             BuildableName = "Tap-Mac.app"
             BlueprintName = "Tap-Mac"
             ReferencedContainer = "container:Tap-Mac.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25D1FFFF1A865FEB009F2713"
+            BlueprintIdentifier = "254974951A866090000DBF06"
             BuildableName = "Tap-Mac.app"
             BlueprintName = "Tap-Mac"
             ReferencedContainer = "container:Tap-Mac.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25D1FFFF1A865FEB009F2713"
+            BlueprintIdentifier = "254974951A866090000DBF06"
             BuildableName = "Tap-Mac.app"
             BlueprintName = "Tap-Mac"
             ReferencedContainer = "container:Tap-Mac.xcodeproj">
